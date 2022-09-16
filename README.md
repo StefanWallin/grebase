@@ -1,3 +1,11 @@
+## Background
+- I'm not an expert on git
+- I've used SVN, BZR and GIT (and CVS once).
+- Used SVN for all my personal files since 2005
+- Been using GIT since 2011 for everything
+- I prefer rebase to merge due to cleaner history and more control over the outcome of conflicts.
+- I prefer rebase since it puts the onus on the developer to make sure the main branch is in a good state.
+
 ```
 code .
 git init
@@ -46,3 +54,35 @@ git push
 
 - open PR again - see conflict
 
+<<<<<<< Updated upstream
+=======
+- LET'S REBASE! 🎉
+```
+git pull
+git checkout emoji
+git rebase -i main
+  talk about the file
+  talk about EDITOR
+  pick
+  :wq
+```
+- `git status`
+- `git status -sb`
+- Source tree
+- **Edit 3: (emoji)**
+- Resolve conflict
+- Save file
+- `git add index.js`
+- `git rebase --continue`
+- REBASE DONE 🍾
+- `git push`
+- Try sync button in VS Code
+- Try push button in Source Tree
+- 🤦‍♂️ 😱
+- `git push --force-with-lease` vs `git push --force`
+- `git checkout -b emoji2`
+- `git push -u origin emoji2`
+- `git checkout emoji`
+- `git push --force-with-lease`
+- Kolla PR igen
+>>>>>>> Stashed changes

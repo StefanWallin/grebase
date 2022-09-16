@@ -1,21 +1,48 @@
-**Edit 1: (main)**
 ```
-console.log("Violets are red,")
-console.log("Roses are blue,")
-console.log("Sugar is sweet,")
-console.log("And so are you.")
+code .
+git init
+git add README.md
+git add index.js
+git add .tool-versions
+git commit -m "first commit"
+git remote add origin git@github.com:StefanWallin/grebase.git
+git push -u origin main
+open https://github.com/StefanWallin/grebase
 ```
 
-**Edit 2: (emoji)**
+```
+git checkout -b emoji
+```
+
+**Edit 1: (emoji)**
 ```
 console.log("Violets are 🔴,")
 console.log("Roses are 🔵,")
 ```
 
+```
+git add -p
+git commit -m "Use emojis for colors"
+git push -u origin emoji
+```
+- Make PR
+- Do not merge PR
 
-**Edit 3: (main)**
+```
+git checkout main
+```
+
+**Edit 2: (main)**
 ```
 console.log("Roses are red,")
 console.log("Violets are blue,")
 ```
+
+```
+git add -p
+git commit -m "Correct the poem"
+git push
+```
+
+- open PR again - see conflict
 

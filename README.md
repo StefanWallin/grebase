@@ -53,9 +53,6 @@ git push
 ```
 
 - open PR again - see conflict
-
-<<<<<<< Updated upstream
-=======
 - LET'S REBASE! 🎉
 ```
 git pull
@@ -85,4 +82,15 @@ git rebase -i main
 - `git checkout emoji`
 - `git push --force-with-lease`
 - Kolla PR igen
->>>>>>> Stashed changes
+
+
+
+**Edit 4: (hooja)**
+git checkout HEAD^
+git commit -m
+```
+console.log("Lingon är röda,")
+console.log("Älgen är blå,")
+console.log("Du gillar brännvin,")
+console.log("Fyfan då är vi två")
+```

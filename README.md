@@ -6,12 +6,10 @@ console.log("Sugar is sweet,")
 console.log("And so are you.")
 ```
 
-**Edit 2: (hooja)**
+**Edit 2: (emoji)**
 ```
-console.log("Lingon är röda,")
-console.log("Älgen är blå,")
-console.log("Du gillar brännvin,")
-console.log("Fyfan då är vi två")
+console.log("Violets are 🔴,")
+console.log("Roses are 🔵,")
 ```
 
 
@@ -19,7 +17,5 @@ console.log("Fyfan då är vi två")
 ```
 console.log("Roses are red,")
 console.log("Violets are blue,")
-console.log("Sugar is sweet,")
-console.log("And so are you.")
 ```
 
